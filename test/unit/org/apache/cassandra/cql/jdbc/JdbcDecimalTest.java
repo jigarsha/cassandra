@@ -30,6 +30,7 @@ public class JdbcDecimalTest
     @Test
     public void testComposeDecompose()
     {
+        System.out.println("testComposeDecompose");
         BigDecimal expected = new BigDecimal("123456789123456789.987654321");
         DecimalSerializer decimal = new DecimalSerializer();
         
